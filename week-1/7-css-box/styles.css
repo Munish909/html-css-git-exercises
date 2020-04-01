@@ -4,3 +4,20 @@
   border-radius: 4px;
   background: #fff;
 }
+.countries {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.country {
+}
+.pages {
+  opacity: 0;
+  height: 0;
+}
+.site-header {
+  border: 1px grey;
+  background-color: rgb(209, 193, 193);
+  opacity: 0;
+  height: 0;
+}
