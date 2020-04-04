@@ -10,3 +10,6 @@
 div .message--unread {
   box-shadow: 4px 4px 0 #dba944;
 }
+.message__content {
+  margin-left: 20px;
+}

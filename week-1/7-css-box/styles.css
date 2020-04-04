@@ -5,19 +5,14 @@
   background: #fff;
 }
 .countries {
-  line-height: 50px;
+  margin: 0px;
   font-weight: bold;
   font-size: 1.2rem;
 }
 .country {
+  padding: 10px;
 }
-.pages {
-  opacity: 0;
-  height: 0;
-}
+.pages,
 .site-header {
-  border: 1px grey;
-  background-color: rgb(209, 193, 193);
-  opacity: 0;
-  height: 0;
+  display: none;
 }
