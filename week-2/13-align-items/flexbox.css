@@ -1,4 +1,23 @@
+/* Add your own CSS code below */
+
 .countries {
   display: flex;
 }
-/* Add your own CSS code below */
+.countries--first {
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5em;
+}
+.countries--second {
+  flex-direction: row;
+  align-items: end;
+  font-size: 1.5em;
+}
+.countries--third {
+  flex-direction: column;
+  align-items: end;
+}
+.countries--fourth {
+  flex-direction: column-reverse;
+  align-items: center;
+}
