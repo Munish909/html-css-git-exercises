@@ -33,12 +33,20 @@
             </tr>
           </table>
         </div>
-
         <div class="checkout">
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
-            <!-- Add the form fields here -->
-
+            <div>
+              <p>
+                <label>Name<input type="text" name="customer-name"/></label>
+              </p>
+              <p>
+                <label>Email<input type="email" name="customer-email"/></label>
+              </p>
+              <p>
+                <label>Phone<input type="tel" name="customer-phone"/></label>
+              </p>
+            </div>
             <button type="submit">Complete Purchase</button>
           </form>
         </div>
