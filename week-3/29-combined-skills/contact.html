@@ -54,14 +54,42 @@
         <h1>Contact Us</h1>
         <p>Send us an email if you would like to contact us.</p>
         <form method="GET" class="contact-form">
+          <fieldset>
+            <legend>Which branch are you interested in?</legend>
+            <ul>
+              <li>
+                <p>
+                  <label><input type="radio" name="branch" value="london" />London</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label><input type="radio" name="branch" value="glasgow" />Glasgow</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label><input type="radio" name="branch" value="manchester" />Manchester</label>
+                </p>
+              </li>
+            </ul>
+          </fieldset>
           <div class="contact-form__field">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
           </div>
           <div class="contact-form__field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
             <textarea
+              id="message"
               name="message"
+              type="text"
               placeholder="Your message should not be longer than 200 words."
+              required
             ></textarea>
           </div>
           <button type="submit">Send</button>
