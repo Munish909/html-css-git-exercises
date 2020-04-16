@@ -9,7 +9,7 @@
   font-size: 1.5em;
 }
 .countries--second {
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: end;
   font-size: 1.5em;
 }

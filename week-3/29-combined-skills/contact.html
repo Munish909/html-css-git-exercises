@@ -56,23 +56,16 @@
         <form method="GET" class="contact-form">
           <fieldset>
             <legend>Which branch are you interested in?</legend>
-            <ul>
-              <li>
-                <p>
-                  <label><input type="radio" name="branch" value="london" />London</label>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <label><input type="radio" name="branch" value="glasgow" />Glasgow</label>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <label><input type="radio" name="branch" value="manchester" />Manchester</label>
-                </p>
-              </li>
-            </ul>
+
+            <label class="branch"><input type="radio" name="branch" value="london" />London</label>
+
+            <label class="branch"
+              ><input type="radio" name="branch" value="glasgow" />Glasgow</label
+            >
+
+            <label class="branch"
+              ><input type="radio" name="branch" value="manchester" />Manchester</label
+            >
           </fieldset>
           <div class="contact-form__field">
             <label for="name">Name</label>

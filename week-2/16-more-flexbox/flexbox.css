@@ -39,7 +39,7 @@
 .countries--fifth {
   flex-direction: column-reverse;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .countries--fifth .country--uganda {
   order: 4;
